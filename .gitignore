@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Production and local builds
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env*.local
+
+# Logs
+*.log
+next-dev.out.log
+next-dev.err.log
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Prisma local artifacts
+prisma/*.db
+prisma/*.db-journal
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
